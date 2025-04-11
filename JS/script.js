@@ -13,10 +13,10 @@ function navMenu(){
         //Apply Transition
         if (scroll >= 250) {
             navBar.classList.add("navbar-sticky-transitioned");
-            // scrollTopButton.classList.add('scrollActive');
+            scrollTopButton.classList.add('scrollActive');
         }else{
             navBar.classList.remove("navbar-sticky-transitioned");
-            // scrollTopButton.classList.remove('scrollActive');
+            scrollTopButton.classList.remove('scrollActive');
         }
         //Sticky On
         if (scroll >= 500){
@@ -80,3 +80,10 @@ var swiper = new Swiper('.swiper-container.app-screen', {
     }); 
 
 //Side Navigation Bar Close While We Click On Navigation Links
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function(a){
+    a.addEventListener("click", function(){
+        navCollapse.classList.remove("show");
+    });
+});

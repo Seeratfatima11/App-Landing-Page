@@ -300,6 +300,7 @@ img{
     font-size: 3rem;
     background: var(--bg-gradient);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .single_counter::after{
@@ -621,4 +622,28 @@ svg:not(:root).svg-inline--fa{
 .copyright p,
 .copyright a{
     color: var(--text-white);
+}
+/* ================================
+  :: 13.0 Scroll Top CSS
+===================================*/
+#scrollUp{
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    height: 2.813rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    background: var(--bg-gradient);
+}
+#scrollUp span{
+    line-height: 2.625rem;
+}
+#scrollUp.scrollActive{
+    display: block;
 }
