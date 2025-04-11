@@ -2,7 +2,9 @@
     /*================================= 
     :: 8.0 Features CSS
     =================================*/
-
+    .margin_top_up{
+        margin-top: -25rem;
+    }
 
 }
 @media (max-width:991px){
@@ -81,7 +83,56 @@
     ==================================*/
 
 }
-   
+@media (max-width:767px){
+    /*==================================== 
+    ::3.0 COMMON CSS
+    ====================================*/
+    .mobile_px-20{
+        padding: 0 1.25rem;
+    }
+
+    /*===================================== 
+    ::5.0 HOME CSS
+    ======================================*/
+    #home{
+        padding-top: 5rem;
+    }
+    #home .home_text h2{
+        font-size: 2.438rem;
+        line-height: 3.938rem;
+    }
+    #home-image{
+        text-align: center;
+        transform: rotate(0deg);
+    }
+     
+    /*====================================
+     :: 6.0 Counter CSS
+    =====================================*/
+    .single_counter:nth-child(2):after{
+        display: none;
+    }
+    /*====================================
+     :: 8.0 Feature CSS
+    =====================================*/
+     
+    .mobile_px_20{
+        padding: 0 1.25rem;
+    }
+    .margin_to_up{
+        margin-top: 0rem;
+    }
+    .feature_middle{
+        text-align: center;
+    }
+    .feature_img{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    .feature_img img{
+        max-width: 95%;
+    }
+}
 
 
 
