@@ -612,3 +612,13 @@ svg:not(:root).svg-inline--fa{
     outline: none;
     border: none;
 }
+/* ================================
+  :: 12.0 Footer CSS
+===================================*/
+.copyright{
+    background: var(--bg-gradient);
+}
+.copyright p,
+.copyright a{
+    color: var(--text-white);
+}
