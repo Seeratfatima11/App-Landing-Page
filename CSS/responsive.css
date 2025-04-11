@@ -132,6 +132,10 @@
     .feature_img img{
         max-width: 95%;
     }
+    .on-mobile{
+        margin-top: -120px;
+    }
+    
 }
 
 

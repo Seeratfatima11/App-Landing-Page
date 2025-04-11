@@ -472,3 +472,22 @@ svg:not(:root).svg-inline--fa{
     color: var(--text-white);
     background: var(--bg-gradient);
 }
+
+/* ================================
+  :: 8.0 app-screen CSS
+===================================*/
+.app-screen{
+    padding-bottom: 5.313rem;
+}
+.app-screen .swiper-slide{
+    width: 263px !important;
+    height: auto;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullets{
+    margin: 0 0.5rem;
+}
+.swiper-pagination-bullet{
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--bg-light-pink);
+}
